@@ -39,13 +39,9 @@ bowerComponents = [
 
 // React app components in the correct load order
 appComponents = [
-  './src/assets/react/collection-list.jsx',
   './src/assets/react/header.jsx',
   './src/assets/react/footer.jsx',
-  './src/assets/react/about.jsx',
-  './src/assets/react/album.jsx',
   './src/assets/react/home.jsx',
-  './src/assets/react/collection.jsx',
   './src/assets/react/layout.jsx',
   './src/assets/react/router.jsx'
 ];
