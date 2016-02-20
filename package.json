@@ -1,0 +1,37 @@
+{
+  "name": "portfolio-marieke",
+  "description": "portfolio website illustration student made with react",
+  "version": "1.1.0",
+  "license": "CC-BY-NC-SA-4.0",
+  "homepage": "http://mariekeluthart.nl",
+  "author": "Sjaak Luthart <https://github.com/sjaakluthart/>",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:sjaakluthart/portfolio-marieke.git"
+  },
+  "scripts": {
+    "gulp": "gulp"
+  },
+  "main": "app.js",
+  "devDependencies": {
+    "bower": "^1.7.7",
+    "express": "^4.13.3",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-ftp": "^1.1.0",
+    "gulp-header": "^1.7.1",
+    "gulp-jscs": "^3.0.2",
+    "gulp-jscs-stylish": "^1.2.1",
+    "gulp-jshint": "^2.0.0",
+    "gulp-react": "^3.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-ruby-sass": "^2.0.6",
+    "gulp-scss-lint": "^0.3.8",
+    "gulp-tar": "^1.8.0",
+    "gulp-uglify": "^1.5.2",
+    "gulp-util": "^3.0.7",
+    "jscs": "^2.6.0",
+    "jshint": "^2.8.0",
+    "jshint-stylish": "^2.1.0"
+  }
+}

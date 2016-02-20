@@ -1,0 +1,10 @@
+.DS_store
+node_modules
+.sass-cache
+stylesheets
+build
+settings.json
+bower_components
+bower_components.js
+app.min.js
+npm-debug.log
