@@ -4,9 +4,19 @@ html {
 }
 
 body {
-  padding: 1%;
-
   background: $white;
 
   color: $black;
+}
+
+main {
+  display: flex;
+
+  min-height: 100vh;
+
+  flex-direction: column;
+
+  > section {
+    flex: 1;
+  }
 }

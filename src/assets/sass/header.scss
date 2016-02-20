@@ -1,0 +1,36 @@
+header {
+  width: 100%;
+
+  padding: 2rem 0;
+
+  img {
+    display: block;
+
+    width: 30%;
+
+    margin: 0 auto;
+    margin-bottom: 2rem;
+
+    cursor: pointer;
+  }
+}
+
+nav {
+  text-align: center;
+
+  li {
+    display: inline;
+
+    margin: 0 1rem;
+
+    font-size: 1.1rem;
+    text-transform: uppercase;
+
+    cursor: pointer;
+
+    &:hover {
+      border-bottom: 2px solid;
+    }
+  }
+
+}
