@@ -43,8 +43,7 @@ appComponents = [
   './src/assets/react/footer.jsx',
   './src/assets/react/home.jsx',
   './src/assets/react/products.jsx',
-  './src/assets/react/about.jsx',
-  './src/assets/react/contact.jsx',
+  './src/assets/react/info.jsx',
   './src/assets/react/layout.jsx',
   './src/assets/react/router.jsx'
 ];
