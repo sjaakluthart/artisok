@@ -16,6 +16,15 @@ routie({
       </Layout>,
       document.getElementById('app')
     );
+  },
+
+  'info': function() {
+    ReactDOM.render(
+      <Layout>
+        <Info />
+      </Layout>,
+      document.getElementById('app')
+    );
   }
 
 });

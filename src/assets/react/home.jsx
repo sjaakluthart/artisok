@@ -3,8 +3,8 @@ var Home = React.createClass({
   render: function() {
 
     return (
-      <section>
-        <h1>Wij maken sokjes</h1>
+      <section className="home">
+        <img src="assets/img/home.jpg" />
       </section>
     );
 

@@ -3,8 +3,10 @@ var Products = React.createClass({
   render: function() {
 
     return (
-      <section>
-        <p>producten</p>
+      <section className="products">
+        <img src="assets/img/sock1.jpg" />
+        <img src="assets/img/sock2.jpg" />
+        <img src="assets/img/sock3.jpg" />
       </section>
     );
 
