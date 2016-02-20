@@ -4,12 +4,12 @@ var Header = React.createClass({
 
     return (
       <header>
-        <img src="assets/img/logo.jpg" />
+        <a href="/#"><img src="assets/img/logo.jpg" /></a>
         <nav>
           <ul>
-            <li>producten</li>
-            <li>over ons</li>
-            <li>contact</li>
+            <li><a href="/#products">producten</a></li>
+            <li><a href="/#about">over ons</a></li>
+            <li><a href="/#contact">contact</a></li>
           </ul>
         </nav>
       </header>
