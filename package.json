@@ -1,13 +1,13 @@
 {
-  "name": "portfolio-marieke",
-  "description": "portfolio website illustration student made with react",
-  "version": "1.1.0",
+  "name": "artisoks",
+  "description": "an art project of my sister and some of her friends, made with react",
+  "version": "0.0.1",
   "license": "CC-BY-NC-SA-4.0",
-  "homepage": "http://mariekeluthart.nl",
+  "homepage": "http://artisoks.nl",
   "author": "Sjaak Luthart <https://github.com/sjaakluthart/>",
   "repository": {
     "type": "git",
-    "url": "git@github.com:sjaakluthart/portfolio-marieke.git"
+    "url": "git@github.com:sjaakluthart/artisoks.git"
   },
   "scripts": {
     "gulp": "gulp"
