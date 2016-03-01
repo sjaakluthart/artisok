@@ -14,9 +14,11 @@
   },
   "main": "app.js",
   "devDependencies": {
+    "babel-preset-react": "^6.5.0",
     "bower": "^1.7.7",
     "express": "^4.13.3",
     "gulp": "^3.9.0",
+    "gulp-babel": "^6.1.2",
     "gulp-concat": "^2.6.0",
     "gulp-ftp": "^1.1.0",
     "gulp-header": "^1.7.1",
