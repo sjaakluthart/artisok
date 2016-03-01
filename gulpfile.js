@@ -1,26 +1,26 @@
 'use strict';
 
-var gulp = require('gulp'),
-  sass = require('gulp-ruby-sass'),
+var appComponents,
+  banner,
+  bowerBanner,
+  bowerComponents,
+  babel = require('gulp-babel'),
+  concat = require('gulp-concat'),
+  ftp = require('gulp-ftp'),
+  gulp = require('gulp'),
+  gutil = require('gulp-util'),
+  header = require('gulp-header'),
   jscs = require('gulp-jscs'),
   jshint = require('gulp-jshint'),
-  stylish = require('gulp-jscs-stylish'),
-  scsslint = require('gulp-scss-lint'),
-  tar = require('gulp-tar'),
-  gutil = require('gulp-util'),
-  ftp = require('gulp-ftp'),
-  concat = require('gulp-concat'),
-  uglify = require('gulp-uglify'),
-  react = require('gulp-react'),
-  rename = require('gulp-rename'),
-  header = require('gulp-header'),
-  settings = require('./settings.json'),
   pkg = require('./package.json'),
-  bowerComponents,
-  appComponents,
+  rename = require('gulp-rename'),
+  sass = require('gulp-ruby-sass'),
+  scsslint = require('gulp-scss-lint'),
+  settings = require('./settings.json'),
   sources,
-  banner,
-  bowerBanner;
+  stylish = require('gulp-jscs-stylish'),
+  tar = require('gulp-tar'),
+  uglify = require('gulp-uglify');
 
 sources = [
   'gulpfile.js',
@@ -114,7 +114,9 @@ gulp.task('bower', function() {
 gulp.task('build', function() {
   return gulp.src(appComponents)
   .pipe(concat('app.jsx'))
-  .pipe(react())
+  .pipe(babel({
+    presets: ['react']
+  }))
   .pipe(uglify())
   .pipe(rename('app.min.js'))
   .pipe(header(banner, {pkg : pkg}))
