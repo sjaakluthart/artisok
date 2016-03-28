@@ -1,21 +1,41 @@
 .home {
-  img {
+  iframe {
     display: block;
 
-    width: 30%;
-
-    margin: 0 auto;
+    margin: 1rem auto;
   }
 }
 
 .products {
   text-align: center;
 
-  img {
-    width: auto;
-    height: 50%;
+  section {
+    @include calc(width, '25% - 2rem');
 
     margin: 0 1rem;
+
+    float: left;
+
+    > img {
+      cursor: zoom-in;
+    }
+  }
+
+  p {
+    margin-bottom: 1rem;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  div {
+    @include animation(fadeIn .5s ease-in-out);
+
+    img {
+      cursor: zoom-out;
+    }
   }
 }
 
