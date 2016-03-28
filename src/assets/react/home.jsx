@@ -4,7 +4,7 @@ var Home = React.createClass({
 
     return (
       <section className="home">
-        <iframe width="720" height="405" src="https://www.youtube.com/embed/ZtZ-E7tLeG4" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://player.vimeo.com/video/160651469" width="720" height="405" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
       </section>
     );
 
