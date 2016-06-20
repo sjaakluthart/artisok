@@ -7,7 +7,7 @@ var Info = React.createClass({
         <article>
           <h1>Artisoks</h1>
           <p>
-            Wij zijn drie illustratie studentes, <a href="http://mariekeluthart.nl" target="blank">Marieke Luthart</a>, Jolien van Brakel en Guusje Thelissen. Samen drukken wij ons werk op sokjes.
+            Een samenwerking van <a href="http://mariekeluthart.nl" target="_blank">Marieke Luthart</a>, <a href="https://www.facebook.com/jolienvanbrakel" target="blank">Jolien van Brakel</a> en <a href="http://guusjethelissen.tumblr.com/" target="blank">Guusje Thelissen</a>. Drie illustratoren op ontdekkingstocht in de wereld van het zeefdrukken. Drie stijlen, drie verhalen. Voor ieder die wiebelteentjes heeft.
           </p>
           <h1>Contact</h1>
           <p><a href="mailto:mail@artisoks.nl">mail@artisoks.nl</a></p>
