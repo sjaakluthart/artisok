@@ -7,7 +7,14 @@ var Info = React.createClass({
         <article>
           <h1>Artisoks</h1>
           <p>
-            Een samenwerking van <a href="http://mariekeluthart.nl" target="_blank">Marieke Luthart</a>, <a href="https://www.facebook.com/jolienvanbrakel" target="blank">Jolien van Brakel</a> en <a href="http://guusjethelissen.tumblr.com/" target="blank">Guusje Thelissen</a>. Drie illustratoren op ontdekkingstocht in de wereld van het zeefdrukken. Drie stijlen, drie verhalen. Voor ieder die wiebelteentjes heeft.
+            Artisok is a collaboration between the artists <a href="http://mariekeluthart.nl" target="_blank">Marieke Luthart</a> and <a href="http://www.jolienwallis.nl" target="blank">Jolien Wallis de Vries</a>.
+          </p>
+          <p>
+            Our silkscreened socks are made by hand and with love.
+            Each pair of socks contains a combination of our favorite creatures, symbols and places that we discover during our journey.
+          </p>
+          <p>
+            Put on your fresh designed socks and join our dance!
           </p>
           <h1>Contact</h1>
           <p><a href="mailto:mail@artisoks.nl">mail@artisoks.nl</a></p>

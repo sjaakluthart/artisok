@@ -7,8 +7,8 @@ var Header = React.createClass({
         <a href="/#"><img src="assets/img/logo.jpg" /></a>
         <nav>
           <ul>
-            <li><a href="/#products">producten</a></li>
-            <li><a href="/#info">info</a></li>
+            <li><a href="#products">products</a></li>
+            <li><a href="#info">info</a></li>
           </ul>
         </nav>
       </header>
