@@ -1,39 +1,23 @@
 {
-  "name": "artisoks",
-  "description": "an art project of my sister and some of her friends, made with react",
-  "version": "0.0.1",
-  "license": "CC-BY-NC-SA-4.0",
-  "homepage": "http://artisoks.nl",
+  "name": "chatplaza-website",
+  "version": "1.0.0",
+  "license": "MIT",
   "author": "Sjaak Luthart <https://github.com/sjaakluthart/>",
   "repository": {
     "type": "git",
     "url": "git@github.com:sjaakluthart/artisoks.git"
   },
-  "scripts": {
-    "gulp": "gulp"
-  },
-  "main": "app.js",
   "devDependencies": {
-    "babel-preset-react": "^6.5.0",
-    "bower": "^1.7.7",
-    "express": "^4.13.3",
-    "gulp": "^3.9.0",
-    "gulp-babel": "^6.1.2",
-    "gulp-concat": "^2.6.0",
-    "gulp-ftp": "^1.1.0",
-    "gulp-header": "^1.7.1",
-    "gulp-jscs": "^3.0.2",
-    "gulp-jscs-stylish": "^1.2.1",
-    "gulp-jshint": "^2.0.0",
-    "gulp-react": "^3.1.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-ruby-sass": "^2.0.6",
-    "gulp-scss-lint": "^0.3.8",
-    "gulp-tar": "^1.8.0",
-    "gulp-uglify": "^1.5.2",
-    "gulp-util": "^3.0.7",
-    "jscs": "^2.6.0",
-    "jshint": "^2.8.0",
-    "jshint-stylish": "^2.1.0"
+    "autoprefixer": "^7.1.2",
+    "browser-sync": "^2.18.13",
+    "nodemon": "^1.12.1",
+    "postcss-clean": "^1.0.3",
+    "postcss-cli": "^4.1.0"
+  },
+  "dependencies": {},
+  "scripts": {
+    "postcss": "postcss css/*.css -d build/css -u autoprefixer postcss-clean --no-map",
+    "watch": "nodemon --exec 'make build' templates/* --watch css --watch templates",
+    "start": "cd build && browser-sync start -s"
   }
 }

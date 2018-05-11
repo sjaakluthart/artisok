@@ -1,10 +1,4 @@
-.DS_store
-node_modules
-.sass-cache
-stylesheets
+.env
+.DS_Store
 build
-settings.json
-bower_components
-bower_components.js
-app.min.js
-npm-debug.log
+node_modules
