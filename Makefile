@@ -9,3 +9,6 @@ clean:
 build: clean
 	mkdir $(BUILD_DIR)
 	bash scripts/build.sh
+
+deploy: build
+	yarn run deploy
