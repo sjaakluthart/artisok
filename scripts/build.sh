@@ -12,6 +12,7 @@ rm -rf ${BUILD_DIR}/css/
 
 cat templates/{header.html,home.html,footer.html} > ${BUILD_DIR}/index.html
 cat templates/{header.html,about.html,footer.html} > ${BUILD_DIR}/about.html
+cat templates/{header.html,products.html,footer.html} > ${BUILD_DIR}/products.html
 
 mkdir build/assets/css
 
