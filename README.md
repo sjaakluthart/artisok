@@ -1,70 +1,29 @@
 # artisoks
 
-Simple website for my sister's art project. Made with React.
-
-Requirements:
-* [Node.js](https://nodejs.org/en/)
-* [Bower](http://bower.io/)
-* [Gulp](http://gulpjs.com/)
-
 ## Setup
 
-Clone the repo with git:
-```
-git clone git@github.com:sjaakluthart/artisoks.git
+Install the required modules:
+
+```bash
+yarn install
 ```
 
-### Installation
+## Development
 
-Install the node modules:
-```
-npm install
-```
+Generate the HTML files:
 
-Install the bower components:
-```
-bower install
+```bash
+make build
 ```
 
-Create secret files used by gulp in the root directory of the project.
+Watch for changes:
 
-*settings.json*
-```
-{
-    "host": "MY.FTP.HOST",
-    "user": "MY.FTP.ACCOUNT",
-    "pass": "MYPASSWORD",
-    "remotePath": "MY/REMOTE/PATH"
-}
+```bash
+yarn run watch
 ```
 
-*secrets.js*
-```
-secrets = {
-    key: 'MY_API_KEY',
-    userId: 'MY_USER_ID',
-    analytics: 'MY_ANALYTICS_ID'
-}
-```
+Start browsersync:
 
-Generate the assets file *bower_components.js*:
-```
-gulp bower
-```
-
-Generate the build file *app.min.js*:
-```
-gulp build
-```
-
-### Running
-
-To view the website run:
-```
-node app.js
-```
-
-Your terminal should return something like:
-```
-App listening at http://:::3000
+```bash
+yarn run start
 ```
