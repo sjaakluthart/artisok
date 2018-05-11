@@ -94,3 +94,19 @@ header a img {
     width: 48%;
   }
 }
+
+.products .content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.products .content img {
+  width: 50%;
+}
+
+@media (min-width: 768px) {
+  .products .content img {
+    width: 25%;
+  }
+}
