@@ -1,11 +1,11 @@
 {
-  "name": "chatplaza-website",
+  "name": "artisok",
   "version": "1.0.0",
   "license": "MIT",
   "author": "Sjaak Luthart <https://github.com/sjaakluthart/>",
   "repository": {
     "type": "git",
-    "url": "git@github.com:sjaakluthart/artisoks.git"
+    "url": "git@github.com:sjaakluthart/artisok.git"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
