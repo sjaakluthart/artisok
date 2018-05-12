@@ -20,6 +20,6 @@
     "postcss": "postcss css/*.css -d build/css -u autoprefixer postcss-clean --no-map",
     "watch": "nodemon --exec 'make build' templates/* --watch css --watch templates",
     "start": "cd build && browser-sync start -s",
-    "deploy": "buildbranch gh-pages build"
+    "deploy": "buildbranch gh-pages build artisoks.nl"
   }
 }
