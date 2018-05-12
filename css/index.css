@@ -42,8 +42,14 @@ header nav a {
   text-decoration: none;
   color: #212121;
   font-size: 18px;
-  margin: 0 8px;
+  margin: 4px 8px;
   border-bottom: 2px solid transparent;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
 }
 
 header nav a:hover,
